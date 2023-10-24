@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav,
+article,
+aside,
+footer {
+    padding: 1rem;
+}
+
+#mainheader {
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+main>* {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+.orange {
+    background-color: #eea489;
+}
+
+.purple {
+    background-color: rgb(223, 205, 240);
+}
